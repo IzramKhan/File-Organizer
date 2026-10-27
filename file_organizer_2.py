@@ -3,7 +3,12 @@ import shutil
 from pathlib import Path
 
 def file_organizer(path):
-    '''Organize files in the given directory'''
+    '''
+    Organize files in the given directory
+    Creates a directory of an Extension
+    And puts all the files with that extension
+    in the directory
+    '''
 
     if not os.path.exists(path):
         return
